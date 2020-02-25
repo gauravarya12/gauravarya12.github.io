@@ -1,0 +1,212 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans';
+}
+
+.flex-row {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex-col {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.mainDiv {
+    display: flex;
+    flex-flow: row no-wrap;
+    height: 100vh;
+}
+
+.introPanel {
+    width: 27.5%;
+    padding-top: 6%;
+    padding-left: 2.5%;
+}
+
+.techPanel {
+    width: 70%;
+    background-color: #6C59BC;
+}
+
+.name {
+    font-size: 38px;
+    color: #3D32BF;
+    font-weight: bolder;
+    padding: 0px;
+    margin: 0px;
+}
+
+.role {
+    font-size: 20px;
+    color: #BBAAF4;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.picDiv {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #AE8CD6;
+    padding: 15px;
+    margin-top: 6%;
+    position: absolute;
+    left: 24.5%;
+    box-shadow: 
+       inset 0 -3em 3em rgba(0,0,0,0.1), 
+             0 0  0 2px rgb(0,0,0,0.1), 
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+.location {
+    font-size: 18px;
+    color: #3D32BF;
+    margin: 5px 0px 15px 0px;
+    font-weight: normal;
+}
+
+.description {
+    font-size: 14px;
+    color: #969696;
+    font-weight: normal;
+}
+
+.resumeLink {
+    font-size: 15px;
+    margin: 5px 0px;
+    color: #AE8CD6;
+    text-decoration-color: #AE8CD6;
+}
+
+.contactInfo {
+    color: #6C59BC;
+    font-size: 14px;
+    margin-top: 25%;
+}
+
+.contactInfo p {
+    margin: 5px;
+}
+
+.contactInfo a {
+    color: #6C59BC;
+    margin: 5px;
+    text-decoration: none;
+}
+
+#profilePic {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.circle {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: #AE8CD6;
+    margin-top: 16%;
+    z-index: 1;
+    margin-left: 4%;
+    position: absolute;
+}
+
+.techStackRow1 {
+    width: 70%;
+    margin: 25% 15% 0% 15%;
+    justify-content: space-between;
+}
+
+.techStackRow2 {
+    width: 70%;
+    margin: 5% 15% 0% 15%;
+    justify-content: space-between;
+}
+
+.techPicText {
+    align-items: center;
+    color: white;
+}
+
+.techPic {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: #B8AAF4;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.techIcons {
+    font-size: 75px;
+}
+
+.techIconsImg {
+    height: 75px;
+    width: 75px;
+}
+
+.proficiencyDiv {
+    margin-top: 7.5%;
+    align-items: center;
+}
+
+.proficiencyHeading {
+    color: #707070;
+    font-size: 38px;
+    font-weight: bolder;
+}
+
+.proficiencyBody {
+    margin: 0% 12.5%;
+    justify-content: space-between;
+    width: 75%;
+    margin-top: 6%;
+}
+
+.proficiencyIndividual {
+    justify-content: center;
+    align-items: center;
+}
+
+.proficiencyIndividual i {
+    color: #6C59BC;
+    font-size: 120px;
+}
+
+.proficiencyIndividual .title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #707070;
+}
+
+.alignCenter {
+    align-content: center;
+}
+
+.projectHeading {
+    color: #707070;
+    font-size: 38px;
+    font-weight: bolder;
+}
+
+.projectsDiv {
+    width: 75%;
+    margin: 0% 12.5% 0% 12.5%;
+}
+
+.projectIndividual {
+    justify-content: center;
+    height: 350px;
+    width: 250px;
+    box-shadow: 
+       inset 0 -3em 3em rgba(0,0,0,0.1), 
+             0 0  0 2px rgb(0,0,0,0.1), 
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
