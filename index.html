@@ -1,112 +1,337 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/99c760c470.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Gaurav Arya</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-calendar/1.3.1/github-calendar-responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='icon' href='assets/fevicon/favicon.ico' type='image/x-icon' />
+    <script src="https://unpkg.com/github-calendar@1.3.1/dist/github-calendar.min.js"></script>
 </head>
+<style type="text/css">
+    p {
+        font-family: 'Roboto';
+    }
+
+    a,
+    a:active,
+    a:visited {
+        color: rgb(13, 146, 212);
+    }
+
+    .marginBox {
+        margin-top: -150px;
+        margin-left: 42.5%;
+        position: absolute;
+    }
+
+    .diagonalBox {
+        background: rgb(77, 187, 241);
+        padding: 100px 0;
+        transform: skew(0deg, -4deg) translateY(-90px);
+        position: relative;
+    }
+
+    .circledot {
+        height: 30px;
+        width: 30px;
+        margin-left: 200px;
+    }
+
+
+    @media only screen and (max-width: 768px) {
+        .marginBox {
+            margin-top: -150px;
+            margin-left: 35%;
+            position: absolute;
+        }
+
+        .circledot {
+            height: 30px;
+            width: 30px;
+            margin-left: 150px;
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .ml-class1 {
+            margin-left: 13px;
+        }
+
+        .ml-class2 {
+            margin-left: 13px;
+        }
+
+        .ml-class3 {
+            margin-left: 13px;
+        }
+
+        .ml-class {
+            margin-left: 50px;
+        }
+
+        .ml-class4 {
+            margin-left: 13px;
+        }
+
+        .marginBox {
+            margin-top: -150px;
+            margin-left: 25%;
+            position: absolute;
+        }
+
+        .circledot {
+            height: 25px;
+            width: 25px;
+            margin-left: 115px
+        }
+    }
+</style>
 
 <body>
-    <div class="mainDiv">
-        <div class="flex-col introPanel">
-            <p class="name">Gaurav</p>
-            <p class="name">Arya</p>
-            <p class="role">Full Stack Developer</p>
-            <p class="location"><i class="fas fa-map-marker-alt"></i> Bangalore, Karnataka, India</p>
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices turpis massa. Mauris sem elit,
-                ornare in sagittis eget, pharetra ac elit. Nunc pretium sapien a enim placerat, id ornare urna placerat.
-                Aenean tempor urna in quam imperdiet tristique.</p>
-            <a href="#" class="resumeLink"><i>View Full Resume</i></a>
-            <div class="flex-col contactInfo">
-                <p><i class="fas fa-phone-alt"></i> +91 9680 333 471</p>
-                <a href="mailto:gaurav.arya.1297@gmail.com"><i class="fas fa-envelope"></i> gaurav.arya.1297@gmail.com</a>
-            </div>
-        </div>
-        <div class="picDiv">
-            <img src="assets/avatar2.png" id="profilePic">
-        </div>
-        <div class="flex-col techPanel">
-            <div class="circle"></div>
-            <div class="flex-row techStackRow1">
-                <div class="flex-col techPicText">
-                    <div class="flex-col techPic">
-                        <i class="fab fa-html5 techIcons"></i>
-                    </div>
-                    <p class="techName">HTML 5</p>
-                </div>
-                <div class="flex-col techPicText">
-                    <div class="flex-col techPic">
-                        <i class="fab fa-css3-alt techIcons"></i>
-                    </div>
-                    <p class="techName">CSS 3</p>
-                </div>
-                <div class="flex-col techPicText">
-                    <div class="flex-col techPic">
-                        <i class="fab fa-js techIcons"></i>
-                    </div>
-                    <p class="techName">JavsScript</p>
-                </div>
-                <div class="flex-col techPicText">
-                    <div class="flex-col techPic">
-                        <i class="fab fa-bootstrap techIcons"></i>
-                    </div>
-                    <p class="techName">Bootstrap</p>
-                </div>
-            </div>
-            <div class="flex-row techStackRow2">
-                <div class="flex-col techPicText">
-                    <div class="flex-col techPic">
-                        <i class="fab fa-react techIcons"></i>
-                    </div>
-                    <p class="techName">React</p>
-                </div>
-                <div class="flex-col techPicText">
-                    <div class="flex-col techPic">
-                        <i class="fab fa-python techIcons"></i>
-                    </div>
-                    <p class="techName">Python</p>
-                </div>
-                <div class="flex-col techPicText">
-                    <div class="flex-col techPic">
-                        <img src="assets/flask.svg" class="techIconsImg">
-                    </div>
-                    <p class="techName">Flask</p>
-                </div>
-                <div class="flex-col techPicText">
-                    <div class="flex-col techPic">
-                        <i class="fas fa-database techIcons"></i>
-                    </div>
-                    <p class="techName">MySQL</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="flex-col proficiencyDiv">
-        <p class="proficiencyHeading">Proficiencies</p>
-        <div class="flex-row proficiencyBody">
-            <div class="flex-col proficiencyIndividual">
-                <i class="fab fa-react"></i>
-                <p class="title">Frontend</p>
-            </div>
-            <div class="flex-col proficiencyIndividual">
-                <i class="fas fa-database"></i>
-                <p class="title">Backend</p>
-            </div>
-            <div class="flex-col proficiencyIndividual">
-                <i class="fas fa-project-diagram"></i>
-                <p class="title">Data Structures</p>
-            </div>
-        </div>
-    </div>
-    <div class="flex-col alignCenter">
-        <p class="projectHeading">Projects</p>
-    </div>
-    <div class="flex-row projectsDiv">
-        <div class="flex-col projectIndividual">
 
+    <div class="diagonalBox"></div>
+    <div class="marginBox">
+        <img style="height: 200px; width:200px;border:15px solid rgb(118, 200, 241)" class="rounded-circle"
+            src="assets/gaurav">
+    </div>
+
+    <div class="offset-5">
+        <div style="background:rgb(77, 187, 241)" class="rounded-circle circledot"></div>
+    </div>
+
+    <div class="jumbotron text-center mb-2" style="background-color: rgba(233,236,239,0);">
+        <h1 style="color: #707070;"><strong>Gaurav Arya&nbsp;</strong></h1>
+        <h5 class="text-muted mt-3"><strong>Full Stack Developer</strong></h5>
+        <ul class="list-inline mt-3 mb-4">
+            <li class="list-inline-item text-muted col-lg-12 col-md-12 col-sm-12 p-1"><i class="fa fa-map-marker"
+                    style="color: rgb(77, 187, 241);"></i><strong>&nbsp; Bangalore, India</strong></li>
+            <li class="list-inline-item text-muted col-lg-12 col-md-12 col-sm-12 p-1"><i class="fa fa-phone"
+                    style="color: rgb(77, 187, 241);"></i>
+                <strong>&nbsp;+91 9680 333 471</strong></li>
+            <li class="list-inline-item text-muted col-lg-12 col-md-12 col-sm-12 p-1"><i class="fa fa-envelope"
+                    style="color: rgb(77, 187, 241);"></i>
+                <a href="mailto:gaurav.arya.1297@gmail.com" target="_top"
+                    style="color:rgb(116, 121, 124)"><strong>&nbsp;gaurav.arya.1297@gmail.com</strong></li></a>
+        </ul>
+        <ul>
+            <li class="list-inline-item "><a href="https://www.linkedin.com/in/gaurav-arya-049779197/"
+                    target="blank"><img src="assets/linkedin.svg"></a>
+            <li class="list-inline-item ml-2"><a href="https://github.com/gauravarya12" target="blank"><img
+                        src="assets/github.svg"></a>
+            <li class="list-inline-item ml-2"><a href="https://www.hackerrank.com/gaurav_arya_12" target="blank"><img
+                        src="assets/hackerrank.svg"></a>
+        </ul>
+        <p class="text-center text-muted mb-2">
+            I'm a Bangalore based web designer and Full-Stack Developer.Focused on crafting <br> clean and user-friendly
+            experiences.
+            Coder who focuses on writing <br> clean, elegant and efficient code.&nbsp;
+            <a href="" target="blank" download"> <button class="btn" style="background:rgb(44, 173, 238);color: white;">
+                    Download
+                    Resume </button></a>&nbsp;</p>
+        </p>
+        <hr>
+        <div class="container mb-2 mt-2">
+            <h2 class="text-center text-muted mb-5"><strong>Tech Stack</strong></h2>
+            <div class="row">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-3"><img class="rounded-circle shadow-sm"
+                        src="assets/html5.svg" style="background-color: rgb(77, 187, 241);width: 111px;padding: 12px;">
+                    <p class="mt-2 ">HTML5</p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-3"><img class="rounded-circle shadow-sm"
+                        src="assets/bootstrap.svg"
+                        style="background-color: rgb(77, 187, 241);width: 111px;padding: 12px;">
+                    <p class="mt-2 ">BOOTSTRAP</p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-3"><img class="rounded-circle shadow-sm"
+                        src="assets/javascript.svg"
+                        style="background-color: rgb(77, 187, 241);width: 111px;padding: 12px;">
+                    <p class="mt-2 ">JAVASCRIPT</p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-3"><img class="rounded-circle shadow-sm"
+                        src="assets/css.png" style="background-color: rgb(77, 187, 241);width: 111px;padding: 15px;">
+                    <p class="mt-2 ">CSS3</p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-3"><img class="rounded-circle shadow-sm"
+                        src="assets/react.svg" style="background-color: rgb(77, 187, 241);width: 111px;padding: 12px;">
+                    <p class="mt-2 ">REACT</p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-3"><img class="rounded-circle shadow-sm"
+                        src="assets/python.svg" style="background-color: rgb(77, 187, 241);width: 111px;padding: 12px;">
+                    <p class="mt-2 ">PYTHON</p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-3 mx-auto"><img class="rounded-circle shadow-sm"
+                        src="assets/mysql.png" style="background-color: rgb(77, 187, 241);width: 111px;padding: 12px;">
+                    <p class="mt-2 ">MYSQL</p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-3 mx-auto"><img class="rounded-circle shadow-sm"
+                        src="assets/flask.svg" style="background-color: rgb(77, 187, 241);width: 111px;padding: 12px;">
+                    <p class="mt-2">FLASK</p>
+                </div>
+            </div>
         </div>
     </div>
+    </div>
+    <hr>
+    <div class="mb-5 mt-5">
+        <h2 class="text-center text-muted"><strong>Proficiencies</strong></h2>
+    </div>
+
+    <div class="mt-5">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-3"><img class="mb-2" src="assets/react1.svg" style="width: 105px;">
+                    <h4 class="text-muted " style="margin-top:35px;"><strong>React App</strong></h4>
+                    <p class="text-center">When it comes to react apps<br>I have the strength of Atlas</p>
+                </div>
+                <div class="col-md-3"><img class="mb-2" src="assets/database.svg" style="width: 93px;">
+                    <h4 class="text-muted" style="margin-top:20px;"><strong>Backend</strong></h4>
+                    <p class="text-center">I am the one who runs<br>the show</p>
+                </div>
+                <div class="col-md-3"><img class="mb-2" src="assets/css3.svg" style="width: 93px; height:120px;">
+                    <h4 class="text-muted mb-3 mt-1"><strong>Frontend</strong><br></h4>
+                    <p class="text-center">Now just that I can<br>even host the show</p>
+                </div>
+                <div class="col-md-3"><img class="mb-2" style="height: 110px;" src="assets/datastructure.svg"
+                        style="width: 93px;">
+                    <h4 class="text-muted mt-3 mb-3 "><strong>Data Structures</strong><br></h4>
+                    <p class="text-center">Putting the right blocks in the<br>right place is just my thing</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5 mb-5"></div>
+    <div class="mt-5 mb-5"></div>
+    <hr>
+    <div class="mb-5 mt-5">
+        <h2 class="text-center text-muted"><strong>Projects</strong></h2>
+    </div>
+    <div class="mb-5">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-1">
+                    <div class="card">
+                        <div class="card-body shadow"><img class="img-fluid" src="assets/foodiehub.png">
+                            <hr>
+                            <h4 class="card-title"><strong>Foodiehub: Online Food Delivery </strong></h4>
+                            <p class="card-text">It is basically a food delivery app where user can place order and
+                                admin can add a restaurant or see the sales of a particular restaurant.The
+                                technologies used here are react, redux and bootstrap.</p>
+                            <a class="card-link text-muted mt-5" href="https://github.com/gauravarya12/masai-sprint-5"
+                                target="blank"><i class="fa fa-github"></i><strong>&nbsp;Github&nbsp;</strong></a>
+                            <a class="card-link text-muted mt-5" href="https://foodiehub.netlify.com/" target="blank"><i
+                                    class="fa fa-external-link"></i>&nbsp;<strong>Demo Link</strong></a>
+
+
+                            <div class="justify-content-between row container mx-auto">
+                                <div style="margin-top: 30px;">
+                                    <img style="width: 30px"
+                                        src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+                                        alt="">
+                                </div>
+                                <div style="margin-top: 30px;">
+                                    <img style="width: 30px"
+                                        src="https://ih0.redbubble.net/image.370541787.7231/flat,800x800,070,f.jpg"
+                                        alt="">
+                                </div>
+                                <div style="margin-top: 30px;">
+                                    <img style="width: 30px"
+                                        src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png"
+                                        alt="">
+                                </div>
+                                <div style="margin-top: 30px;">
+                                    <img style="width: 30px"
+                                        src="https://icon-library.net/images/bootstrap-icon-png/bootstrap-icon-png-10.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container mx-auto">
+        <div class="row h-100 d-flex justify-content-between" style="margin-bottom: 60px">
+            <div class="col-lg-3 col-md-4 col-sm-12 mt-5">
+                <div style="width: 200px;height:200px; background: white;border-radius: 50%;border:20px solid;border-color: rgb(77, 187, 241)"
+                    class="mt-1 mx-auto">
+                    <p class="text-center font-weight-bold" style="margin-top: 55px;font-size: 35px">
+                        1200
+                    </p>
+                </div>
+                <p class="mt-5 font-weight-bold text-center" style="color:#5D86B4; font-size: 35px;">Hours
+                </p>
+                <p class="text-center" style="font-size: 25px;margin-top:-20px;color:#5D86B4">
+                    of full stack coding
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12 mt-5">
+                <div style="width: 200px;height:200px; background: white;border-radius: 50%;border:20px solid;border-color: rgb(77, 187, 241)"
+                    class="mt-1 mx-auto">
+                    <p class="text-center font-weight-bold" style="margin-top: 55px;font-size: 35px">
+                        260+
+                    </p>
+                </div>
+                <p class="display-4 mt-5 font-weight-bold text-center" style="color:#5D86B4;font-size: 35px">
+                    HackerRank</p>
+                <p style="font-size: 25px;margin-top:-15px;color:#5D86B4" class="text-center">
+                    Problems
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12 mt-5">
+                <div style="width: 200px;height:200px; background: white;border-radius: 50%;border:20px solid;border-color:  rgb(77, 187, 241)"
+                    class="mt-1 mx-auto">
+                    <p class="text-center font-weight-bold" style="margin-top: 55px;font-size: 35px">
+                        160+
+                    </p>
+                </div>
+                <p class="text-center mt-5 font-weight-bold" style="color:#5D86B4; font-size: 35px;">Git
+                </p>
+                <p style="font-size: 25px;margin-top:-20px;color:#5D86B4" class="text-center">
+                    Commits
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12 mt-5 mx-auto">
+                <div style="width: 200px;height:200px; background: white;border-radius: 50%;border:20px solid;border-color:  rgb(77, 187, 241)"
+                    class="mt-1 mx-auto">
+                    <p class="text-center font-weight-bold" style="margin-top: 55px;font-size: 35px">
+                        20
+                    </p>
+                </div>
+                <p class="text-center mt-5 font-weight-bold" style="color:#5D86B4; font-size: 35px;">
+                    Projects
+                </p>
+                <p style="font-size: 25px;margin-top:-20px;color:#5D86B4" class="mx-auto">
+                </p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <center>
+        <div class="shadow-none  bg-light rounded col-lg-9 col-md-12 col-sm-12" style="margin-bottom: 100px">
+            <div class="calendar">
+                Here is Git Status!!
+            </div>
+        </div>
+    </center>
+    <script type="text/javascript">
+        GitHubCalendar(".calendar", "gauravarya12",
+            {
+                responsive: true
+            });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
