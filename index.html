@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel='icon' href='assets/fevicon/favicon.ico' type='image/x-icon' />
     <script src="https://unpkg.com/github-calendar@1.3.1/dist/github-calendar.min.js"></script>
 </head>
 <style type="text/css">
@@ -27,8 +26,6 @@
 
     .marginBox {
         margin-top: -150px;
-        margin-left: 42.5%;
-        position: absolute;
     }
 
     .diagonalBox {
@@ -37,76 +34,19 @@
         transform: skew(0deg, -4deg) translateY(-90px);
         position: relative;
     }
-
-    .circledot {
-        height: 30px;
-        width: 30px;
-        margin-left: 200px;
-    }
-
-
-    @media only screen and (max-width: 768px) {
-        .marginBox {
-            margin-top: -150px;
-            margin-left: 35%;
-            position: absolute;
-        }
-
-        .circledot {
-            height: 30px;
-            width: 30px;
-            margin-left: 150px;
-        }
-    }
-
-    @media only screen and (max-width: 600px) {
-        .ml-class1 {
-            margin-left: 13px;
-        }
-
-        .ml-class2 {
-            margin-left: 13px;
-        }
-
-        .ml-class3 {
-            margin-left: 13px;
-        }
-
-        .ml-class {
-            margin-left: 50px;
-        }
-
-        .ml-class4 {
-            margin-left: 13px;
-        }
-
-        .marginBox {
-            margin-top: -150px;
-            margin-left: 25%;
-            position: absolute;
-        }
-
-        .circledot {
-            height: 25px;
-            width: 25px;
-            margin-left: 115px
-        }
-    }
 </style>
 
 <body>
 
     <div class="diagonalBox"></div>
-    <div class="marginBox">
-        <img style="height: 200px; width:200px;border:15px solid rgb(118, 200, 241)" class="rounded-circle"
-            src="assets/gaurav">
+    <div class="col-12 d-flex justify-content-center">
+        <div class="marginBox">
+            <img style="height: 200px; width:200px;border:15px solid rgb(118, 200, 241)" class="rounded-circle"
+                src="assets/gaurav">
+        </div>
     </div>
 
-    <div class="offset-5">
-        <div style="background:rgb(77, 187, 241)" class="rounded-circle circledot"></div>
-    </div>
-
-    <div class="jumbotron text-center mb-2" style="background-color: rgba(233,236,239,0);">
+    <div class="text-center mb-2 mt-3" style="background-color: rgba(233,236,239,0);">
         <h1 style="color: #707070;"><strong>Gaurav Arya&nbsp;</strong></h1>
         <h5 class="text-muted mt-3"><strong>Full Stack Developer</strong></h5>
         <ul class="list-inline mt-3 mb-4">
