@@ -12,34 +12,38 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://unpkg.com/github-calendar@1.3.1/dist/github-calendar.min.js"></script>
+    <style type="text/css">
+        body {
+            padding: 0px 0px;
+            margin: 0px;
+            overflow-x: hidden;
+        }
+        p {
+            font-family: 'Roboto';
+        }
+    
+        a,
+        a:active,
+        a:visited {
+            color: rgb(13, 146, 212);
+        }
+    
+        .marginBox {
+            margin-top: -150px;
+        }
+    
+        .diagonalBox {
+            background: rgb(77, 187, 241);
+            padding: 100px 0px;
+            transform: skew(0deg, -4deg) translateY(-90px);
+            position: relative;
+        }
+        .card{
+            height: 520px;
+            overflow:auto;
+        }
+    </style>
 </head>
-<style type="text/css">
-    body {
-        padding: 0px 0px;
-        margin: 0px;
-        overflow-x: hidden;
-    }
-    p {
-        font-family: 'Roboto';
-    }
-
-    a,
-    a:active,
-    a:visited {
-        color: rgb(13, 146, 212);
-    }
-
-    .marginBox {
-        margin-top: -150px;
-    }
-
-    .diagonalBox {
-        background: rgb(77, 187, 241);
-        padding: 100px 0px;
-        transform: skew(0deg, -4deg) translateY(-90px);
-        position: relative;
-    }
-</style>
 
 <body>
     <div class="diagonalBox"></div>
@@ -158,38 +162,124 @@
     </div>
     <div class="mb-5">
         <div class="container text-center">
-            <div class="row">
+            <div class="d-flex projectCard">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-1">
+                    <div class="card">
+                        <div class="card-body shadow"><img class="img-fluid" src="assets/blogapp.png">
+                            <hr>
+                            <h4 class="card-title "><strong>Blog App</strong></h4>
+                            <p class="card-text text-center">Blog App where user can signup and login and post blogs and
+                                see others' blogs and comment on them and edit and delete one's comments and delete one's blogs.The technologies used here
+                                 are python, flask, mysql, react, redux and bootstrap.
+                            </p>
+                            <a class="card-link text-muted mt-5" href="https://github.com/gauravarya12/Blog-App"
+                                target="blank"><i class="fa fa-github"></i><strong>&nbsp;Github&nbsp;</strong></a>
+
+                            <div class="justify-content-between d-flex mx-auto mt-2">
+                                <div>
+                                    <img style="width: 30px; height: 30px;"
+                                        src="assets/python.png"
+                                        alt="">
+                                </div>
+                                <div>
+                                    <img style="width: 35px; height: 35px;"
+                                        src="https://i2.wp.com/www.corellis.eu/wp-content/uploads/2018/09/logo-flask.png"
+                                        alt="">
+                                </div>
+                                <div>
+                                    <img style="width: 30px; height: 30px;"
+                                        src="https://seeklogo.com/images/M/mysql-logo-69B39F7D18-seeklogo.com.png"
+                                        alt="">
+                                </div>
+                                <div>
+                                    <img style="width: 30px"
+                                        src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+                                        alt="">
+                                </div>
+                                <div>
+                                    <img style="width: 30px"
+                                        src="https://ih0.redbubble.net/image.370541787.7231/flat,800x800,070,f.jpg"
+                                        alt="">
+                                </div>
+                                <div>
+                                    <img style="width: 30px"
+                                        src="https://icon-library.net/images/bootstrap-icon-png/bootstrap-icon-png-10.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-1">
                     <div class="card">
                         <div class="card-body shadow"><img class="img-fluid" src="assets/foodiehub.png">
                             <hr>
                             <h4 class="card-title"><strong>Foodiehub: Online Food Delivery </strong></h4>
-                            <p class="card-text">It is basically a food delivery app where user can place order and
+                            <p class="card-text text-center">It is basically a food delivery app where user can place order and
                                 admin can add a restaurant or see the sales of a particular restaurant.The
                                 technologies used here are react, redux and bootstrap.</p>
-                            <a class="card-link text-muted mt-5" href="https://github.com/gauravarya12/masai-sprint-5"
+                            <a class="card-link text-muted mt-5" href="https://github.com/gauravarya12/Foodiehub"
                                 target="blank"><i class="fa fa-github"></i><strong>&nbsp;Github&nbsp;</strong></a>
                             <a class="card-link text-muted mt-5" href="https://foodiehub.netlify.com/" target="blank"><i
                                     class="fa fa-external-link"></i>&nbsp;<strong>Demo Link</strong></a>
 
 
-                            <div class="justify-content-between row container mx-auto">
-                                <div style="margin-top: 30px;">
+                            <div class="justify-content-between d-flex mx-auto mt-3">
+                                <div>
                                     <img style="width: 30px"
                                         src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
                                         alt="">
                                 </div>
-                                <div style="margin-top: 30px;">
+                                <div>
                                     <img style="width: 30px"
                                         src="https://ih0.redbubble.net/image.370541787.7231/flat,800x800,070,f.jpg"
                                         alt="">
                                 </div>
-                                <div style="margin-top: 30px;">
+                                <div>
                                     <img style="width: 30px"
                                         src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png"
                                         alt="">
                                 </div>
-                                <div style="margin-top: 30px;">
+                                <div>
+                                    <img style="width: 30px"
+                                        src="https://icon-library.net/images/bootstrap-icon-png/bootstrap-icon-png-10.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-1">
+                    <div class="card">
+                        <div class="card-body shadow"><img class="img-fluid" src="assets/meetingroom.png" />
+                            <hr>
+                            <h4 class="card-title"><strong>Meeting Room Booking System </strong></h4>
+                            <p class="card-text text-center align-items-around">It is basically a meeting room booking app where user can book meeting room
+                                from a particular date till particular date.The
+                                technologies used here are react, redux and bootstrap.</p>
+                            <a class="card-link text-muted mt-5" href="https://github.com/gauravarya12/Meeting-Room-Booking"
+                                target="blank"><i class="fa fa-github"></i><strong>&nbsp;Github&nbsp;</strong></a>
+                            <a class="card-link text-muted mt-5" href="https://meetingdata.netlify.com/" target="blank"><i
+                                    class="fa fa-external-link"></i>&nbsp;<strong>Demo Link</strong></a>
+
+
+                            <div class="justify-content-between d-flex mx-auto mt-3">
+                                <div>
+                                    <img style="width: 30px"
+                                        src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+                                        alt="">
+                                </div>
+                                <div>
+                                    <img style="width: 30px"
+                                        src="https://ih0.redbubble.net/image.370541787.7231/flat,800x800,070,f.jpg"
+                                        alt="">
+                                </div>
+                                <div>
+                                    <img style="width: 30px"
+                                        src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png"
+                                        alt="">
+                                </div>
+                                <div>
                                     <img style="width: 30px"
                                         src="https://icon-library.net/images/bootstrap-icon-png/bootstrap-icon-png-10.jpg"
                                         alt="">
@@ -202,7 +292,7 @@
         </div>
     </div>
     <hr>
-    <div class="container mx-auto">
+    <div class="container mx-auto mt-3">
         <div class="row h-100 d-flex justify-content-between" style="margin-bottom: 60px">
             <div class="col-lg-3 col-md-4 col-sm-12 mt-5">
                 <div style="width: 200px;height:200px; background: white;border-radius: 50%;border:20px solid;border-color: rgb(77, 187, 241)"
